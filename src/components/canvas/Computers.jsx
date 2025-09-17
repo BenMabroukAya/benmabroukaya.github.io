@@ -4,7 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("/3d-portfolio-react/desktop_pc/scene.gltf");
+  const computer = useGLTF("/desktop_pc/scene.gltf");
 
 
   // Ensure no NaN values
